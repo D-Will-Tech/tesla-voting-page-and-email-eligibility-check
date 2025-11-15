@@ -1,14 +1,14 @@
 import {ChevronRight, MousePointer, Phone, QrCode, Mail } from "lucide-react"
 const ShareSection = () => {
   return (
-    <section className="bg-transparent text-black px-6 md:px-[30px] py-20 mx-w-[599px] ">
-      <h2 className="text-4xl font-bold mb-6">
+    <section className="bg-transparent text-black px-6 py-16 md:px-8 md:ml-60 max-w-7xl">
+      <h2 className="text-4xl md:text-5xl font-bold mb-6">
         Voting Your Share is Quick and Easy
       </h2>
 
       <p className="text-neutral-700 max-w-4xl mb-10">
         Don’t wait – we are asking shareholders to VOTE NOW in line with the
-        Board’s recommendations on ALL proposals. Please vote “FOR” Proposal
+        Board’s recommendations on ALL proposals. Please vote “6FOR” Proposal
         One, the Election of Three Class III Directors, Proposal Three, the
         Amended & Restated 2019 Equity Incentive Plan and Proposal Four, the
         2025 CEO Performance Award.
@@ -44,10 +44,11 @@ const ShareSection = () => {
             <QrCode size={20} className="text-gray-600"/>
             <span>Vote with Qrcode</span>
          </div>
+         <ChevronRight />
         </button>
 
         
-          <a href="" className="m-auto bg-red-500 cursor-pointer items-center justify-center px-6 py-4 rounded-small text-white-500 text-white w-max">
+          <a href="/teslavote" className="m-auto bg-red-500 cursor-pointer items-center justify-center px-6 py-4 rounded-small text-white-500 text-white w-max">
             <span>Check Email Eligibility</span>
           </a>
         
